@@ -3,8 +3,8 @@
 
 ### Learning Objectives
 
-- Get a sense of how to use a graphing library, like Plotly, to answer questions about how to visualize our data
-- Understand how our dictionary and list data structures can represent graphical information
+* Get a sense of how to use a graphing library, like Plotly, to answer questions about how to visualize our data
+* Understand how our dictionary and list data structures can represent graphical information
 
 ### Introduction
 
@@ -57,9 +57,6 @@ Now we plot our graph by calling the `plotly.offline.iplot` method and passing t
 
 
 ```python
-import plotly
-
-plotly.offline.init_notebook_mode(connected=True)
 trace0 = {'type': 'bar', 'x': ['jack', 'jill', 'sandy'], 'y': [8, 11, 10]}
 
 

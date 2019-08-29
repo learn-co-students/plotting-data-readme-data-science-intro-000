@@ -57,9 +57,6 @@ Now we plot our graph by calling the `plotly.offline.iplot` method and passing t
 
 
 ```python
-import plotly
-
-plotly.offline.init_notebook_mode(connected=True)
 trace0 = {'type': 'bar', 'x': ['jack', 'jill', 'sandy'], 'y': [8, 11, 10]}
 
 
